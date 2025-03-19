@@ -25,6 +25,7 @@ class OwnerProfile(models.Model):
 
 class ManagerProfile(OwnerProfile):
     department = models.CharField(max_length=100)  
+    
 
 
 class AdminProfile(models.Model):
