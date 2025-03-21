@@ -19,7 +19,6 @@ class CustomUser(AbstractUser):
 class OwnerProfile(models.Model):
     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE)
     property_name = models.CharField(max_length=255) 
-    aaaa = models.IntegerField(default=0)
     
 
 
